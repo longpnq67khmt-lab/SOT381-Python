@@ -1,3 +1,5 @@
+# 4. Kiểm tra Chuỗi rỗng
+
 a = input("Nhập vào chuỗi muốn kiểm tra: ")
 if (a == ""):
 	print("Đây là một chuỗi rỗng")

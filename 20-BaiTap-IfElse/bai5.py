@@ -1,3 +1,5 @@
+# 5. Độ dài Mật khẩu
+
 a = input("Nhập vào mật khẩu muốn kiểm tra: ")
 if (len(a) > 8):
 	print("Mật khẩu lớn hơn 8 ký tự")

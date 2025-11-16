@@ -1,3 +1,5 @@
+# 10. Kiểm tra Ngày trong tuần
+
 day = input("Nhập vào ngày bằng số nguyên: ")
 
 if (day == "2"):
@@ -8,6 +10,8 @@ elif (day == "4"):
 	print("Thứ tư")
 elif (day == "5"):
 	print("Thứ năm")
+
+	
 elif (day == "6"):
 	print("Thứ sáu")
 elif (day == "7"):

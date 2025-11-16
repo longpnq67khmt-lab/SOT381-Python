@@ -1,3 +1,5 @@
+# 8. Xếp loại Học lực
+
 a = int(input("Nhập vào điểm trung bình: "))
 
 if (a >= 8):
