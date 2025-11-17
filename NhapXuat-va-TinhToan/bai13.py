@@ -1,9 +1,7 @@
-# 13. Vé xem phim Giảm giá
+# 13. Chia lấy phần nguyên và phần dư
 
-a = int(input("Nhập vào số tuổi muốn kiểm tra: "))
+a = float(input("Nhập vào số a: "))
+b = float(input("Nhập vào số b: "))
 
-if (a < 12) or (a > 60):
-	print("Được giảm giá")
-else:
-	print("Không được giảm giá")
-
+print(f"phần nguyên của {a} / {b} = {a / b}")
+print(f"phần dư của {a} / {b} = {a % b}")

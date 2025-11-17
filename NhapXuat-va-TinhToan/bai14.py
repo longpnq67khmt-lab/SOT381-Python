@@ -1,8 +1,6 @@
-# 14. Giờ làm việc
+# 14. Tính vận tốc
 
-a = int(input("Nhập vào giờ làm việc: "))
+a = int(input("Nhập vào quãng đường di chuyển (km): "))
+b = int(input("Nhập vào thời gian di chuyển (h): "))
 
-if (a < 9) or (a > 17):
-	print("Ngoài giờ làm việc")
-else:
-	print("Trong giờ làm việc")
+print(f"Vận tốc bạn đạt được là: {a / b}km/h")

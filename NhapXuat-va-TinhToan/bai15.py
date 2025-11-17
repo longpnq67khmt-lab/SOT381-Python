@@ -1,8 +1,9 @@
-# 15. Kiểm tra Nguyên âm/Phụ âm
+# 15. Tính điểm trung bình
 
-a = input("Hãy nhập ký tự muốn kiểm tra: ")
+a = int(input("Hãy nhập điểm môn toán: "))
+b = int(input("Hãy nhập điểm môn lý: "))
+c = int(input("Hãy nhập điểm môn hóa: "))
 
-if (a == "a") or (a == "e") or (a == "i") or (a == "o") or (a == "u"):
-	print("nguyên âm")
-else:
-	print("Không phải nguyên âm")
+dtb = (a + b + c) / 3
+
+print(f"Điểm trung bình của bạn là: {dtb}")

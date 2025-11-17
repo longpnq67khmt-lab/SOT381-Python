@@ -1,12 +1,6 @@
-# 19. Kiểm tra Tam giác Hợp lệ
+# 19. Chuyển đổi đơn vị
 
-a = int(input("Hãy nhập cạnh a: "))
-b = int(input("Hãy nhập cạnh b: "))
-c = int(input("Hãy nhập cạnh c: "))
+a = int(input("Nhập vào số mét muốn đổi: "))
 
-if (a <= 0) or (b <= 0) or (c <= 0):
-	print("Cạnh của tam giác không bé hơn bằng 0")
-elif (a + b > c) and (b + c > a) and (a + c > b):
-	print("Đây là một tam giác hợp lệ")
-else:
-	print("Đây là một tam giác không hợp lệ")
+print(f"- Chuyển sang centimet: {a * 100}cm")
+print(f"- Chuyển sang milimet: {a * 100 * 10}mm")

@@ -1,13 +1,7 @@
-# 16. Giải phương trình bậc 1
+# 16. Tính diện tích và chu vi hình tròn
 
-a = int(input("Hãy nhập a: "))
-b = int(input("Hãy nhập b: "))
+a = int(input("Hãy nhập vào bán kính hình tròn: "))
+pi = 3.14
 
-if (a == 0):
-	if (b == 0):
-		print("Phương trình có vô số nghiệm!")
-	else:
-		print("Phương trình vô nghiệm!")
-else:
-	x = -b/a
-	print(f"Phương trình có 1 nghiệm: {x}")
+print(f"Diện tích hình tròn là: {pi * a * a}")
+print(f"Chu vi hình tròn là: {2 * pi * a}")

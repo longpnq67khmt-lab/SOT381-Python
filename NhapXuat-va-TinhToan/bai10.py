@@ -1,22 +1,7 @@
-# 10. Kiểm tra Ngày trong tuần
+# 10. Tính lãi suất đơn
 
-day = input("Nhập vào ngày bằng số nguyên: ")
+a = int(input("Nhập vào số tiền muốn gửi: "))
+b = float(input("Nhập vào lãi suất (phần trăm/năm): "))
+c = int(input("Nhập vào số tháng gửi: "))
 
-if (day == "2"):
-	print("Thứ hai")
-elif (day == "3"):
-	print("Thứ ba")
-elif (day == "4"):
-	print("Thứ tư")
-elif (day == "5"):
-	print("Thứ năm")
-
-	
-elif (day == "6"):
-	print("Thứ sáu")
-elif (day == "7"):
-	print("Thứ bảy")
-elif (day == "8"):
-	print("Chủ nhật")
-else:
-	print("Ngày không hợp lệ")
+print(f"Số tiền lãi: {(a * b * c)/12}")
